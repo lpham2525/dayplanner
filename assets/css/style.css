@@ -74,6 +74,18 @@ textarea {
   text-align: center;
 }
 
-.btn:hover {
-  background-color: aquamarine;
+#div8{
+  height: 20px;
+  width: 1000px;
+  background-color: white;
+  display: inline-block;
+}
+
+.hide{
+  display: none;
+}
+
+.eventInput{
+  width: 1000px;
+  text-align: center;
 }
