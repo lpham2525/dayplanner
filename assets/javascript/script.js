@@ -29,11 +29,6 @@ function checkTimeRow() {
 //calls the checkTimeRow function to run every 15 minutes
 setInterval(checkTimeRow, 90000)
 
-//shows the input field when the div is clicked
-$(".taskDiv").click(function () {
-  $(".eventInput").toggle()
-})
-
 //function where clicking on an empty "event/task" space would create an input where  a user could type in an event or task
 function taskInput() {
   $('.empty').click(function () {
@@ -44,11 +39,15 @@ function taskInput() {
   })
 }
 
+//shows the input field when the div is clicked
+$("#div8").click(function () {
+  $("#input8").toggle()
+})
 
 //clicking on 'save' button will save the text written there to localStorage and refreshing the page will not delete the text
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('8', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('8', JSON.stringify($('#input8').val()))
 })
 
 //retrieves item from local storage
@@ -57,9 +56,14 @@ if (localStorage.getItem('8')) {
   $('#div8').text(`${localStorage.getItem('8')}`)
 }
 
+//shows the input field when the div is clicked
+$("#div9").click(function () {
+  $("#input9").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('9', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('9', JSON.stringify($('#input9').val()))
 })
 
 //retrieves item from local storage
@@ -68,9 +72,14 @@ if (localStorage.getItem('9')) {
   $('#div9').text(`${localStorage.getItem('9')}`)
 }
 
+//shows the input field when the div is clicked
+$("#div10").click(function () {
+  $("#input10").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('10', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('10', JSON.stringify($('#input10').val()))
 })
 
 //retrieves item from local storage
@@ -78,19 +87,31 @@ if (localStorage.getItem('10')) {
   $('#div10').show()
   $('#div10').text(`${localStorage.getItem('10')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div11").click(function () {
+  $("#input11").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('10', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('11', JSON.stringify($('#input11').val()))
 })
 
 //retrieves item from local storage 
 if (localStorage.getItem('11')) {
   $('#div11').show()
-  $('#di11').text(`${localStorage.getItem('11')}`)
+  $('#div11').text(`${localStorage.getItem('11')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div12").click(function () {
+  $("#input12").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('11', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('12', JSON.stringify($('#input12').val()))
 })
 
 //retrieves item from local storage
@@ -98,9 +119,15 @@ if (localStorage.getItem('12')) {
   $('#div12').show()
   $('#div12').text(`${localStorage.getItem('12')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div13").click(function () {
+  $("#input13").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('12', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('13', JSON.stringify($('#input13').val()))
 })
 
 //retrieves item from local storage
@@ -108,9 +135,14 @@ if (localStorage.getItem('13')) {
   $('#div13').show()
   $('#div13').text(`${localStorage.getItem('13')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div14").click(function () {
+  $("#input14").toggle()
+})
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('14', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('14', JSON.stringify($('#input14').val()))
 })
 
 //retrieves item from local storage
@@ -118,9 +150,15 @@ if (localStorage.getItem('14')) {
   $('#div14').show()
   $('#div14').text(`${localStorage.getItem('14')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div15").click(function () {
+  $("#input15").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('15', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('15', JSON.stringify($('#input15').val()))
 })
 
 //retrieves item from local storage
@@ -128,9 +166,15 @@ if (localStorage.getItem('15')) {
   $('#div15').show()
   $('#div15').text(`${localStorage.getItem('15')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div16").click(function () {
+  $("#input16").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('16', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('16', JSON.stringify($('#input16').val()))
 })
 
 //retrieves item from local storage
@@ -138,9 +182,15 @@ if (localStorage.getItem('16')) {
   $('#div16').show()
   $('#div16').text(`${localStorage.getItem('16')}`)
 }
+
+//shows the input field when the div is clicked
+$("#div17").click(function () {
+  $("#input17").toggle()
+})
+
 $('.save').on('click', function (event) {
   event.preventDefault()
-  localStorage.setItem('17', JSON.stringify($('.eventInput').val()))
+  localStorage.setItem('17', JSON.stringify($('#input17').val()))
 })
 
 //retrieves item from local storage
