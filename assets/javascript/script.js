@@ -51,16 +51,102 @@ $('.save').on('click', function (event) {
   localStorage.setItem('8', JSON.stringify($('.eventInput').val()))
 })
 
-//hides the divs once clicked
-$('#div8').on('click', function () {
-  $('#div8').hide()
-})
-
 //retrieves item from local storage
 if (localStorage.getItem('8')) {
   $('#div8').show()
   $('#div8').text(`${localStorage.getItem('8')}`)
 }
 
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('9', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('9')) {
+  $('#div9').show()
+  $('#div9').text(`${localStorage.getItem('9')}`)
+}
+
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('10', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('10')) {
+  $('#div10').show()
+  $('#div10').text(`${localStorage.getItem('10')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('10', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage 
+if (localStorage.getItem('11')) {
+  $('#div11').show()
+  $('#di11').text(`${localStorage.getItem('11')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('11', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('12')) {
+  $('#div12').show()
+  $('#div12').text(`${localStorage.getItem('12')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('12', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('13')) {
+  $('#div13').show()
+  $('#div13').text(`${localStorage.getItem('13')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('14', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('14')) {
+  $('#div14').show()
+  $('#div14').text(`${localStorage.getItem('14')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('15', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('15')) {
+  $('#div15').show()
+  $('#div15').text(`${localStorage.getItem('15')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('16', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('16')) {
+  $('#div16').show()
+  $('#div16').text(`${localStorage.getItem('16')}`)
+}
+$('.save').on('click', function (event) {
+  event.preventDefault()
+  localStorage.setItem('17', JSON.stringify($('.eventInput').val()))
+})
+
+//retrieves item from local storage
+if (localStorage.getItem('17')) {
+  $('#div17').show()
+  $('#div17').text(`${localStorage.getItem('17')}`)
+}
 
 
