@@ -1,6 +1,6 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-Work Day Scheduler is a simple calendar application that allows the user to save events for each hour of the day. Hours past will display as gray blocks, the present hour will be highlighted as a light red block, and hours in the future will be depicted as light green blocks. This app features dynamically updated HTML and CSS powered by jQuery.
+Work Day Scheduler is a simple calendar application that allows the user to add and save events for each hour of the work day from 8 am to 6 pm. Timeblocks representing hours past will display as gray blocks, the present hour will be highlighted as a light red block, and hours in the future will be depicted as light green blocks. This app features dynamically updated HTML and CSS powered by jQuery.
 
 ## User Story
 

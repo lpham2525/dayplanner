@@ -19,7 +19,7 @@ function changeColor (element) {
   }
 }
 
-// function to check the hour of each time block
+// function to check the hour of each timeblock
 function checkTimeRow () {
   $('.timeRow').each(function () {
     changeColor($(this))
@@ -98,7 +98,7 @@ $('.save').on('click', function (event) {
   localStorage.setItem('11', JSON.stringify($('#input11').val()))
 })
 
-// retrieves item from local storage 
+// retrieves item from local storage
 if (localStorage.getItem('11')) {
   $('#div11').show()
   $('#div11').text(`${localStorage.getItem('11')}`)
